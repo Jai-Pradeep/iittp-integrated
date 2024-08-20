@@ -1,0 +1,333 @@
+[
+    {
+        "clubName": "Actomania", 
+        "clubDescription": "At Actomania, we embrace the theatrical arts, providing a platform for students to explore their dramatic talents. This club offers members the opportunity to engage in various forms of dramatics, from portraying diverse characters to participating in elaborate stage productions. Whether you're interested in acting, directing, or stage management, Actomania is where your theatrical journey begins.", 
+        "imageUrl": "assets/images/club/actomania.jpeg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+            "Independence Day Play: संघर्ष के चार रंग"
+        ],
+        "clubProjects": [
+            "LPP"
+        ]
+    },
+    {
+        "clubName": "Artista", 
+        "clubDescription": "Artista is dedicated to nurturing creativity and artistic expression. This club invites students to explore their artistic potential through a variety of mediums. By joining Artista, you’ll become part of a vibrant community where you can engage in art workshops, exhibitions, and collaborative projects. It's the perfect environment for those looking to infuse color and creativity into their lives and to share their artistic vision with others.", 
+        "imageUrl": "assets/images/club/artista.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "PFC", 
+        "clubDescription": "The Photography and Film Club (PFC) is your gateway to capturing and creating visual narratives. We provide a space for students to develop their skills in photography and filmmaking. Join us to explore techniques, participate in shoots, and view campus life through a creative lens. Whether you're interested in photography, videography, or editing, PFC offers ample opportunities to enhance your visual storytelling skills.", 
+        "imageUrl": "assets/images/club/pfc.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Rasoi", 
+        "clubDescription": "Rasoi welcomes all culinary enthusiasts and food lovers. This club offers a platform for students to showcase their culinary skills and share their homemade delights across campus. Join us to participate in cooking events, food stalls, and tastings. Rasoi is not just about enjoying good food; it’s also about fostering a community that appreciates and celebrates culinary arts.", 
+        "imageUrl": "assets/images/club/rasoi.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Xcite", 
+        "clubDescription": "Xcite is the club where dance and performance meet excitement. We specialize in organizing dynamic dance events and performances that bring energy and fun to campus. If you have a passion for dance and enjoy creating a buzz with your moves, Xcite is the perfect place for you to showcase your talent and be part of unforgettable campus events.", 
+        "imageUrl": "assets/images/club/xcite.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Sargam", 
+        "clubDescription": "Sargam is the official music club of the campus, dedicated to those passionate about music. Whether you are a vocalist, instrumentalist, or simply a music enthusiast, Sargam provides a vibrant platform for you to participate in musical performances, events, and workshops. Join us to be a part of the rhythm and melody that enriches our campus life.", 
+        "imageUrl": "assets/images/club/sargam.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Celeste", 
+        "clubDescription": "Celeste is the fashion club where style and creativity come to life. If you have a flair for fashion or dream of walking the ramp, this is your chance to shine. Our club organizes fashion shows, styling sessions, and creative events, offering you an opportunity to express your style and contribute to dazzling fashion showcases on campus.", 
+        "imageUrl": "assets/images/club/celeste.jpg",
+        "photos": [
+            "assets/images/club/celeste/img1.jpg",
+            "assets/images/club/celeste/img2.jpg",
+            "assets/images/club/celeste/img3.jpg",
+            "assets/images/club/celeste/img4.jpg"
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Nisarga", 
+        "clubDescription": "Nisarga is committed to environmental conservation and sustainability. As one of the newest clubs on campus, Nisarga engages students in various environmental initiatives, including conservation drives and eco-friendly projects. Join us to contribute to reducing our carbon footprint and preserving the lush greenery and wildlife of our expansive campus.", 
+        "imageUrl": "assets/images/club/nisarga.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Techmaniacs", 
+        "clubDescription": "Techmaniacs is a club for those who are passionate about technology and gadgets. From flying drones to building robots, we engage in hands-on tech projects and explore the latest innovations. If you’re excited by the newest technological advancements and enjoy working on tech-related projects, Techmaniacs is the place for you.", 
+        "imageUrl": "assets/images/club/techmaniacs.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "E-Cell", 
+        "clubDescription": "The E-Cell is dedicated to entrepreneurship and innovation. We offer a range of activities including workshops, seminars, and competitions designed to foster entrepreneurial skills and business acumen. If you have a passion for startups and business development, the E-Cell provides resources and opportunities to help you achieve your entrepreneurial goals.", 
+        "imageUrl": "assets/images/club/ecell.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Navgati", 
+        "clubDescription": "Navgati is the club for automobile enthusiasts and engineering aficionados. We focus on vehicle design, modification, and innovation. Whether you're interested in automotive engineering or simply enjoy working on vehicle projects, Navgati offers a platform for hands-on experiences and creative automotive solutions.", 
+        "imageUrl": "assets/images/club/navgati.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Gagan Vedhi", 
+        "clubDescription": "Gagan Vedhi is the astronomy club for those fascinated by the cosmos. Whether your interests lie in physics, rocket modeling, or stargazing, Gagan Vedhi provides a platform to explore and discuss celestial phenomena. Join us to deepen your understanding of the universe and engage in exciting astronomical projects and discussions.", 
+        "imageUrl": "assets/images/club/gv.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Digital Wizards", 
+        "clubDescription": "Digital Wizards is the campus coding club, catering to tech enthusiasts and aspiring programmers. Managed by a team of dedicated coders, we offer a range of coding workshops, hackathons, and tech discussions. Whether you’re looking to enhance your coding skills or stay updated on the latest in technology, Digital Wizards is your destination.", 
+        "imageUrl": "assets/images/club/dw.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Sigma Squad", 
+        "clubDescription": "Sigma Squad is the newest tech club on campus, focusing on artificial intelligence and machine learning. Our members work on cutting-edge AI projects and research, aiming to build innovative solutions and applications. Join Sigma Squad to be at the forefront of AI development and to explore the future of technology.", 
+        "imageUrl": "assets/images/club/ss.jpg",
+        "photos": [
+            "assets/images/club/sigmasquad/img1.jpg",
+            "assets/images/club/sigmasquad/img2.jpg",
+            "assets/images/club/sigmasquad/img3.jpg",
+            "assets/images/club/sigmasquad/img4.jpg"
+        ],
+        "clubEvents": [
+            "Workshop: Introduction to Python\nDate: 28 Aug\nLocation: LHC CR 006",
+            "Workshop: Introduction to Machine Learning\nDate: TBD\nLocation: TBD"
+        ],
+        "clubProjects": [
+            "IIT Tirupati Chatbot",
+            "Stock Trading Bot",
+            "TinyML powered Voice AI Assistant"
+        ]
+    },
+    {
+        "clubName": "Aranya", 
+        "clubDescription": "Aranya is the adventure sports club that caters to outdoor enthusiasts. We organize various outdoor activities and expeditions, providing an opportunity for students to engage in thrilling adventures and explore nature. If you enjoy outdoor sports and challenges, Aranya offers an exciting way to experience the great outdoors.", 
+        "imageUrl": "assets/images/club/aranya.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Arogya", 
+        "clubDescription": "Arogya, the campus fitness club, is dedicated to promoting physical well-being and healthy living. We offer fitness sessions, workshops, and events designed to help students stay active and maintain a healthy lifestyle. If you are looking to enhance your fitness levels and stay in shape, Arogya provides the support and resources you need.", 
+        "imageUrl": "assets/images/club/arogya.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Chaturanga", 
+        "clubDescription": "Chaturanga is the chess club for both beginners and seasoned players. We provide a platform for members to engage in chess games, tournaments, and strategic discussions. If you have a passion for chess and enjoy intellectual challenges, Chaturanga offers an opportunity to hone your skills and connect with fellow chess enthusiasts.", 
+        "imageUrl": "assets/images/club/chaturanga.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Quiz Club", 
+        "clubDescription": "The Quiz Club is for those who have a passion for trivia and general knowledge. We organize quiz competitions and events where you can test your knowledge on a wide range of topics. If you consider yourself a trivia expert or enjoy challenging your knowledge, the Quiz Club is the place to showcase your expertise.", 
+        "imageUrl": "assets/images/club/quiz.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Scribbles", 
+        "clubDescription": "Scribbles is the official writing club of IIT Tirupati, dedicated to literary expression. We encourage members to engage in creative writing, including poetry, short stories, and essays. Join Scribbles to share your written works, participate in literary events, and immerse yourself in the world of words.", 
+        "imageUrl": "assets/images/club/scribbles.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Debate and Oratory Club", 
+        "clubDescription": "The Debate and Oratory Club offers a formal platform for students to engage in structured debates and public speaking. If you enjoy articulating your views, honing your argumentation skills, or simply speaking in front of an audience, this club provides opportunities for intellectual discourse and oratorical excellence.", 
+        "imageUrl": "assets/images/club/daoc.jpg",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Statistics Club", 
+        "clubDescription": "The Statistics Club is dedicated to those with a passion for data analysis and statistical methods. We explore various aspects of statistics, including data collection, analysis, and predictive modeling. If you are intrigued by numbers and enjoy working with data, the Statistics Club offers a stimulating environment for statistical exploration.", 
+        "imageUrl": "assets/images/club/stats.png",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "Excelsior", 
+        "clubDescription": "Excelsior is the club for students interested in pursuing higher education. We provide resources, workshops, and guidance for those considering advanced studies and career development. If you are contemplating further education after your undergraduate degree, Excelsior helps you navigate your academic and professional future.", 
+        "imageUrl": "assets/images/club/excelsior.png",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    },
+    {
+        "clubName": "NeetiBodh", 
+        "clubDescription": "NeetiBodh is a newly established club focusing on public policy and its impact on society. We offer discussions, workshops, and hackathons to explore various policy issues and their implications. If you are interested in policy-making and societal change, NeetiBodh provides a platform to engage in impactful dialogue and initiatives.", 
+        "imageUrl": "assets/images/club/neetibodh.png",
+        "photos": [
+
+        ],
+        "clubEvents": [
+
+        ],
+        "clubProjects": [
+            
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249913587370",
+    "project_id": "iittp-6c38b",
+    "storage_bucket": "iittp-integrated.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249913587370:android:3f6554e6f73d87212d82d3",
+        "android_client_info": {
+          "package_name": "com.example.iittp_integrated"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqRZ3bfp8VZOg63HIHz0Ga2atsPufsOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
