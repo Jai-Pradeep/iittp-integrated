@@ -311,7 +311,6 @@ class _BusScheduleScreenState extends State<BusScheduleScreen> {
           const SizedBox(height: 20),
           Expanded(
             child: Container(
-              // Blue background
               child: nextBuses.isNotEmpty
                   ? ListView.builder(
                 itemCount: nextBuses.length,
@@ -421,7 +420,6 @@ class _BusScheduleScreenState extends State<BusScheduleScreen> {
                   fit: BoxFit.fitWidth,
                 ),
               ),
-              // Empty space if no buses
             ),
           ),
         ],
@@ -473,7 +471,6 @@ class _BusScheduleScreenState extends State<BusScheduleScreen> {
             int.parse(timeParts[0]), int.parse(timeParts[1]));
 
         if (now.isAfter(busDateTime) && i == busTimes.length - 1) {
-          // If current time is after the last bus, show the next day's first buses
           busDateTime = busDateTime.add(Duration(days: 1));
           for (int j = 0; j < schedule[busNo]![source]!.length; j++) {
             final nextDayTimeParts = schedule[busNo]![source]![j].split(':');
