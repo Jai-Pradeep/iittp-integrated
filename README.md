@@ -138,41 +138,47 @@ A little credit for the developers :)
 
 ## Contributions
 
-### **Yamini Shree.B**
+### **Yamini Shree.B  CS21B056**
 **Home Page**  
 - Complete UI
 - Backend
+ 
 **News Widget**
 - Backend
 - Connecting to Firestore database for live updates
+  
 **Medical Page**
 - Complete UI 
 - Phone call feature
+  
 **Feed Back**
 - Complete UI
 - Backend
 - Connecting to Google sheets API
 - Animations
+  
 **Integration**
 - Integration of the entire application 
 - Correction of constant UI among all the components
 - resolving dependencies and issues and bugs
 - Organisation
+  
 **Outlets**
 - UI
 - Animation
+  
 **Mess widget**
 - Date and time integration progamming
+  
 **Club Activities**
 - template creation
+  
 **Bus Schedule**
 - Animation
+  
 **Other works**
 - Git repository
 - Presentation slides
   
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
