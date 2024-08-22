@@ -210,3 +210,14 @@ A little credit for the developers :)
 **Integration**
 - Resolving issues while integrating the app
 
+### **Adithya Ananth  CS23B001**
+**Time Table**
+- Frontend
+- Backend
+- Data Collection and Organization
+- Linking Time Table to real-world time
+
+**Club Activities Page**
+- Frontend
+- Backend
+- Data Collection
