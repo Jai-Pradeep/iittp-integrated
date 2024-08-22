@@ -49,7 +49,6 @@ class _EventsCalendarScreenState extends State<EventsCalendarScreen> {
     });
 
     _events.addAll({
-      // Holidays and Important Days
       DateTime(2024, 8, 15): ['Independence Day'],
       DateTime(2024, 10, 2): ['Mahatma Gandhi\'s Birthday'],
       DateTime(2024, 9, 16): ['Milad-Un-Nabi'],
@@ -61,19 +60,16 @@ class _EventsCalendarScreenState extends State<EventsCalendarScreen> {
       DateTime(2024, 9, 15): ['Engineer\'s Day'],
       DateTime(2024, 8, ): ['Fresher\'s Week Starts'],
 
-      // Test-I Examinations
       DateTime(2024, 9, 9): ['Test-01 Examinations (Slot A - FN)', 'Test-01 Examinations (Slot B - AN)'],
       DateTime(2024, 9, 10): ['Test-01 Examinations (Slot C - FN)', 'Test-01 Examinations (Slot D - AN)'],
       DateTime(2024, 9, 11): ['Test-01 Examinations (Slot E - FN)', 'Test-01 Examinations (Slot F - AN)'],
       DateTime(2024, 9, 12): ['Test-01 Examinations (Slot G - FN)', 'Test-01 Examinations (Slot H - AN)'],
 
-      // Test-II Examinations
       DateTime(2024, 10, 14): ['Test-02 Examinations (Slot A - FN)', 'Test-02 Examinations (Slot B - AN)'],
       DateTime(2024, 10, 15): ['Test-02 Examinations (Slot C - FN)', 'Test-02 Examinations (Slot D - AN)'],
       DateTime(2024, 10, 16): ['Test-02 Examinations (Slot E - FN)', 'Test-02 Examinations (Slot F - AN)'],
       DateTime(2024, 10, 17): ['Test-02 Examinations (Slot G - FN)', 'Test-02 Examinations (Slot H - AN)'],
-
-      // End Semester Examinations
+      
       DateTime(2024, 11, 26): ['End Semester Examinations (Slot A)'],
       DateTime(2024, 11, 27): ['End Semester Examinations (Slot B)'],
       DateTime(2024, 11, 28): ['End Semester Examinations (Slot C)'],
@@ -298,8 +294,7 @@ class _EventsCalendarScreenState extends State<EventsCalendarScreen> {
                 color: Colors.white,
                 fontSize: 28,
                 fontWeight: FontWeight.w700,
-                letterSpacing: 2.0, // Increase letter spacing
-                // Replace with your custom font
+                letterSpacing: 2.0,                
                 shadows: [
                   Shadow(
                     blurRadius: 10.0,
@@ -394,7 +389,6 @@ class _EventsCalendarScreenState extends State<EventsCalendarScreen> {
           onDismissed: (direction) {
             setState(() {
               _deleteEvent(_selectedDay!, index);
-              // The event is removed from the list here
               events.removeAt(index);
             });
             ScaffoldMessenger.of(context).showSnackBar(
@@ -420,7 +414,6 @@ class _EventsCalendarScreenState extends State<EventsCalendarScreen> {
                   ),
                 ),
                 onTap: () {
-                  // Handle event click
                 },
               ),
             ),
