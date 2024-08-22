@@ -140,8 +140,8 @@ A little credit for the developers :)
 
 ### ** Yamini Shree.B
 **Home Page**  
-  -Complete UI
-  -Backend
+- Complete UI
+- Backend
 **News Widget**
   -Backend
   -Connecting to Firestore database for live updates
