@@ -140,7 +140,7 @@ A little credit for the developers :)
 
 ### **Yamini Shree.B  CS21B056**
 **Home Page**  
-- Complete UI
+- Complete Frontend
 - Backend
  
 **News Widget**
@@ -148,7 +148,7 @@ A little credit for the developers :)
 - Connecting to Firestore database for live updates
   
 **Medical Page**
-- Complete UI 
+- Complete Frontend 
 - Phone call feature
   
 **Feed Back**
@@ -176,9 +176,37 @@ A little credit for the developers :)
 **Bus Schedule**
 - Animation
   
-**Other works**
-- Git repository
-- Presentation slides
-  
+### **Jai Pradeep  CS23B024**
+**Login Page**  
+- Frontend
+- Backend
+- Animation
+- Firebase Authentication
+ 
+**Contacts page**
+- Backend
+- Frontend 
+- Phone calling feature 
 
+**Chat Bot**
+- Backend 
+- Frontend 
+- Animations
+
+**Home Page**
+- Chat bot Button on home screen
+  
+**Mess Menu**
+- Frontend 
+- Backend
+  
+**Bus Schedule**
+- Animations
+
+**Deployment**
+- Deploying into apk
+- Resolving dependencies and Issues
+
+**Integration**
+- Resolving issues while integrating the app
 
