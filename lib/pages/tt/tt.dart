@@ -29,7 +29,6 @@ class _TimeTableState extends State<TimeTable> {
   int _selectedDayIndex = dayNum - 1;
   PageController _pageController = PageController(initialPage: dayNum - 1);
 
-  // Timetable structure with permanent storage
   Map<String, Map<String, Map<String, List<Map<String, String>>>>> _timetable =
   {
     'Mon': {
@@ -1593,7 +1592,6 @@ class _TimeTableState extends State<TimeTable> {
     _prefs = await SharedPreferences.getInstance();
     _loadTimetable();
 
-    // Ensure that the day index is properly set on re-initialization
     setState(() {
       _selectedDayIndex = dayNum - 1;
       _pageController = PageController(initialPage: _selectedDayIndex);
@@ -1695,7 +1693,6 @@ class _TimeTableState extends State<TimeTable> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Row for Days with equal width containers
               Row(
                 children: List.generate(7, (index) {
                   DateTime today = DateTime.now();
@@ -1719,7 +1716,6 @@ class _TimeTableState extends State<TimeTable> {
                 }),
               ),
 
-              // Content that changes based on selected day
               Expanded(
                 child: PageView.builder(
                   controller: _pageController,
@@ -1731,7 +1727,7 @@ class _TimeTableState extends State<TimeTable> {
                   itemCount: null,
                   itemBuilder: (context, index) {
                     int actualIndex = index %
-                        7; // Wrap around the index for circular scrolling
+                        7; 
                     return buildTimetable(
                       getDayName(actualIndex),
                       _selectedYear,
@@ -1746,7 +1742,7 @@ class _TimeTableState extends State<TimeTable> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Dropdown for selecting year
+
               Container(
                 width: 300,
                 padding: const EdgeInsets.symmetric(vertical: 8.0),
@@ -1771,7 +1767,7 @@ class _TimeTableState extends State<TimeTable> {
                       setState(() {
                         _selectedYear = newValue;
                         _selectedBranch =
-                        null; // Reset branch when year is changed
+                        null; 
                       });
                     },
                     items: _years
@@ -1789,7 +1785,6 @@ class _TimeTableState extends State<TimeTable> {
 
               const SizedBox(height: 20),
 
-              // Dropdown for selecting branch
               Container(
                 width: 300,
                 padding: const EdgeInsets.symmetric(vertical: 8.0),
@@ -1832,7 +1827,6 @@ class _TimeTableState extends State<TimeTable> {
 
               const SizedBox(height: 40),
 
-              // Button to show timetable
               ElevatedButton(
                 onPressed:
                 _selectedYear != null && _selectedBranch != null
@@ -1888,7 +1882,7 @@ class _TimeTableState extends State<TimeTable> {
           color: isSelected
               ? Color.fromARGB(255, 37, 151, 244)
               : Color(0xFF81D4FA),
-          //borderRadius: BorderRadius.circular(0.0),
+
         ),
         child: Center(
           child: Column(
@@ -1918,7 +1912,7 @@ class _TimeTableState extends State<TimeTable> {
     List<Map<String, String>>? timetable = _timetable[dayName]?[year]?[branch];
 
     if (timetable == null) {
-      return Container(); // Return an empty container if no timetable exists for the day
+      return Container(); 
     }
 
     return ListView.builder(
@@ -1966,7 +1960,7 @@ class _TimeTableState extends State<TimeTable> {
                     setState(() {
                       timetable.removeAt(index);
                     });
-                    _saveTimetable(); // Save after deleting the course
+                    _saveTimetable();
                   },
                 ),
               ],
@@ -2029,16 +2023,16 @@ class _TimeTableState extends State<TimeTable> {
                 };
 
                 setState(() {
-                  _timetable[dayName] ??= {}; // Ensure the day exists
+                  _timetable[dayName] ??= {};
                   _timetable[dayName]![_selectedYear!] ??=
-                  {}; // Ensure the year exists
+                  {}; 
                   _timetable[dayName]![_selectedYear!]![_selectedBranch!] ??=
-                  []; // Ensure the branch exists
+                  []; 
                   _timetable[dayName]![_selectedYear!]![_selectedBranch!]!
-                      .add(newCourse); // Add the course
+                      .add(newCourse); 
                 });
 
-                _saveTimetable(); // Save after adding the course
+                _saveTimetable();
                 Navigator.of(context).pop();
               },
               child: Text('Add'),
@@ -2102,7 +2096,7 @@ class _TimeTableState extends State<TimeTable> {
                   course['location'] = _locationController.text;
                 });
 
-                _saveTimetable(); // Save after editing the course
+                _saveTimetable(); 
                 Navigator.of(context).pop();
               },
               child: Text('Save'),
