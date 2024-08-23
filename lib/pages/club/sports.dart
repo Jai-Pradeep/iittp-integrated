@@ -13,7 +13,7 @@ class SportsCommitteePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE3F2FD), // Match background color
+      backgroundColor: const Color(0xFFE3F2FD), 
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(60),
         child: Container(
@@ -35,7 +35,7 @@ class SportsCommitteePage extends StatelessWidget {
             ],
           ),
           child: AppBar(
-            backgroundColor: Colors.transparent, // Transparent to show gradient
+            backgroundColor: Colors.transparent, 
             title: const Text(
               'Sports Committee Clubs',
               style: TextStyle(
@@ -70,7 +70,7 @@ class SportsCommitteePage extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors
-                      .lightBlue[200], // Match background color of the tile
+                      .lightBlue[200], 
                   borderRadius: BorderRadius.circular(15.0),
                 ),
                 child: ListTile(
@@ -79,20 +79,20 @@ class SportsCommitteePage extends StatelessWidget {
                     child: Icon(
                       clubIcons[clubs[index]],
                       color: const Color.fromARGB(
-                          255, 0, 0, 0), // Match icon color
+                          255, 0, 0, 0), 
                     ),
                   ),
                   title: Text(
                     clubs[index],
                     style: const TextStyle(
                       fontSize: 18.0,
-                      fontWeight: FontWeight.w600, // Match text style
-                      color: Colors.black, // Match text color
+                      fontWeight: FontWeight.w600, 
+                      color: Colors.black, 
                     ),
                   ),
                   trailing: const Icon(
                     Icons.arrow_forward_ios,
-                    color: Color(0xFFE3F2FD), // Match trailing icon color
+                    color: Color(0xFFE3F2FD), 
                   ),
                   onTap: () {
                     Navigator.push(
