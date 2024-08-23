@@ -42,8 +42,7 @@ class AcademicsCommitteePage extends StatelessWidget {
                 color: Colors.white,
                 fontSize: 28,
                 fontWeight: FontWeight.w700,
-                letterSpacing: 2.0, // Increase letter spacing
-                // Replace with your custom font
+                letterSpacing: 2.0, 
                 shadows: [
                   Shadow(
                     blurRadius: 10.0,
@@ -79,7 +78,7 @@ class AcademicsCommitteePage extends StatelessWidget {
                       child: Icon(
                         clubIcons[clubs[index]],
                         color: const Color.fromARGB(
-                            255, 0, 0, 0), // Match icon color
+                            255, 0, 0, 0), 
                       ),
                     ),
                     title: Text(
