@@ -14,11 +14,11 @@ class ClubDetailsPage extends StatefulWidget {
 class _ClubDetailsPageState extends State<ClubDetailsPage> {
   String clubDescription = "Loading";
   String imageUrl =
-      'assets/images/club/sargam.jpg'; // Default placeholder image
-  String clubLogo = 'assets/images/club/sargam.jpg'; // Default logo placeholder
-  List<String> clubPhotos = []; // To store the club photos
-  List<String> clubProjects = []; // To store the club projects
-  List<String> clubEvents = []; // To store the club events
+      'assets/images/club/sargam.jpg'; 
+  String clubLogo = 'assets/images/club/sargam.jpg'; 
+  List<String> clubPhotos = []; 
+  List<String> clubProjects = []; 
+  List<String> clubEvents = []; 
 
   @override
   void initState() {
@@ -53,7 +53,7 @@ class _ClubDetailsPageState extends State<ClubDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE3F2FD), // Set background color
+      backgroundColor: const Color(0xFFE3F2FD),
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(60),
         child: Container(
