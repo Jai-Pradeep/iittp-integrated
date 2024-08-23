@@ -25,7 +25,7 @@ class CulturalCommitteePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE3F2FD), // Match background color
+      backgroundColor: const Color(0xFFE3F2FD), 
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(60),
         child: Container(
@@ -47,7 +47,7 @@ class CulturalCommitteePage extends StatelessWidget {
             ],
           ),
           child: AppBar(
-            backgroundColor: Colors.transparent, // Transparent to show gradient
+            backgroundColor: Colors.transparent, 
             title: const Text(
               'Cultural Committee Clubs',
               style: TextStyle(
@@ -84,7 +84,7 @@ class CulturalCommitteePage extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   color: Colors
-                      .lightBlue[200], // Match background color of the tile
+                      .lightBlue[200], 
                 ),
                 child: ListTile(
                   leading: CircleAvatar(
@@ -92,20 +92,20 @@ class CulturalCommitteePage extends StatelessWidget {
                     child: Icon(
                       clubIcons[clubName] ?? Icons.group,
                       color: const Color.fromARGB(
-                          255, 0, 0, 0), // Match icon color
+                          255, 0, 0, 0), 
                     ),
                   ),
                   title: Text(
                     clubName,
                     style: const TextStyle(
                       fontSize: 18.0,
-                      fontWeight: FontWeight.bold, // Match text style
-                      color: Color.fromARGB(255, 0, 0, 0), // Match text color
+                      fontWeight: FontWeight.bold, 
+                      color: Color.fromARGB(255, 0, 0, 0), 
                     ),
                   ),
                   trailing: const Icon(
                     Icons.arrow_forward_ios,
-                    color: Color(0xFFE3F2FD), // Match trailing icon color
+                    color: Color(0xFFE3F2FD), 
                   ),
                   onTap: () {
                     Navigator.push(
