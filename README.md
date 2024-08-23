@@ -238,6 +238,20 @@ The Challenge:
 **Integration**
 - Resolving issues while integrating the app
 
+### **Adithya Ananth  CS23B001**
+**Time Table**
+- Frontend
+- Backend
+- Data Collection and Organization
+- Linking Time Table to real-world time
+- Enabling addition, modification and deletion of courses.
+
+**Club Activities Page**
+- Frontend
+- Backend
+- Data Collection
+- Enabling Horizontally Scrollable AppBar
+
 ### **Sudhanva Bharadwaj BM   CS23B051**
 **Bus Schedule**
 - Frontend
@@ -249,19 +263,6 @@ The Challenge:
 - Backend
 - Data Collection
 - Provision to add and delete personalized tasks/events
-  
-
-### **Adithya Ananth  CS23B001**
-**Time Table**
-- Frontend
-- Backend
-- Data Collection and Organization
-- Linking Time Table to real-world time
-
-**Club Activities Page**
-- Frontend
-- Backend
-- Data Collection
 
 ### **Srikar Vilas Donur CS23B049**
 
