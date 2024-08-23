@@ -141,6 +141,7 @@ A little credit for the developers :)
 The Challenge:
 
 ●	In most cases, checking the menu items of a hotel requires us to physically visit the Restaurants to see what is offered in the menu.
+
 ●	else we have to travel distance to go another Restaurants to check the menu.
 
 The Solution:
@@ -261,7 +262,7 @@ The Challenge:
 - 
 **Quick Links**
   
-  - Frontend
+- Frontend
 - Backend
 -  UI
 - Animation
@@ -269,10 +270,13 @@ The Challenge:
 
   **ClubActivities Page , timetable page, Title bars for home page , bus schedule page , maps page , contacts page, developers page,**
 
-  - changed colours, added shadows and a gradient,
-  - and changed the designs and colours of the icons.
-  - Updated the text styles of the title bar,
-  -  adding background colour for background, list title and buttons 
+- changed colours, added shadows and a gradient,
+  
+- and changed the designs and colours of the icons.
+  
+- Updated the text styles of the title bar,
+  
+-  adding background colour for background, list title and buttons 
    
   
 
