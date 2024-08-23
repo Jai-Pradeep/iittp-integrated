@@ -292,5 +292,39 @@ The Challenge:
   
 -  adding background colour for background, list title and buttons 
    
+  ### **Koppala Stanycletus CS23B059** ###
   
+**Campus map**
 
+- Map
+- Added place names to the Map
+- Interaction options 
+
+**Developers Page**
+
+- UI
+- Frontend
+- Backend
+- Expanded version of photos
+- Clickable LinkedIn Links
+- Animated Icons
+  
+**Navigation Bar**
+
+- Animated Icons in the Navigation Bar
+- Edited Colors
+  
+**News Widget**
+
+- Sideway scrolling
+- Clickable arrows for navigation
+- Animated Scrolling
+- Display page position with animation
+  
+**App Icon**
+
+- Designed App Icon (Not updated yet)
+  
+**Other contributions**
+
+- Assisted in searching for resources
