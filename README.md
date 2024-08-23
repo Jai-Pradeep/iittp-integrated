@@ -136,6 +136,33 @@ A little credit for the developers :)
 1. Animated icons matching the color palette add an attractive look to the UI.
 2. Visually engaging icons reduce the static look of the app.
 
+ ###  **OUTLETS:**
+ 
+The Challenge:
+
+●	In most cases, checking the menu items of a hotel requires us to physically visit the Restaurants to see what is offered in the menu.
+●	else we have to travel distance to go another Restaurants to check the menu.
+
+The Solution:
+
+1.	This feature displays every item on the menu for every hotel nearby to our campus  in your mobile.
+2.	you can sit in your room and go through the menus of all the nearby restaurants. And order what you crave
+
+ ###  **QUICK LINKS:**
+ 
+The Challenge:
+
+1)	 It’s inefficient and time-consuming to look up the academic website, College ERP, College magazine etc .. 
+2)	Time management and organisation are issues faced by students to find the ERP website, Collage magazine.
+
+ Solution:
+
+1.	To solve this problem, and make students’ life smoother, here is another feature of the Integrated IIT T app.
+2.	Primarily, students can view the Institute Website, College ERP, Collage magazine. 
+3.	, made easier with a swipe to the right or left.
+
+
+
 ## Contributions
 
 ### **Yamini Shree.B  CS21B056**
@@ -221,3 +248,31 @@ A little credit for the developers :)
 - Frontend
 - Backend
 - Data Collection
+
+### **Srikar Vilas Donur CS23B049**
+
+**Outlets Page**
+
+- Frontend
+- Backend
+-  UI
+- Animation
+- Data Collection and Organization
+- 
+**Quick Links**
+  
+  - Frontend
+- Backend
+-  UI
+- Animation
+- Data Collection and Organization
+
+  **ClubActivities Page , timetable page, Title bars for home page , bus schedule page , maps page , contacts page, developers page,**
+
+  - changed colours, added shadows and a gradient,
+  - and changed the designs and colours of the icons.
+  - Updated the text styles of the title bar,
+  -  adding background colour for background, list title and buttons 
+   
+  
+
