@@ -17,7 +17,7 @@ class LiteraryCommitteePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE3F2FD), // Match background color
+      backgroundColor: const Color(0xFFE3F2FD),
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(60),
         child: Container(
