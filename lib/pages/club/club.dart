@@ -8,12 +8,12 @@ import 'sports.dart';
 class Committee {
   final String name;
   final Widget page;
-  final IconData icon; // Add this line
+  final IconData icon; 
 
   Committee(
       {required this.name,
       required this.page,
-      required this.icon}); // Update constructor
+      required this.icon}); 
 }
 
 class ClubActivitiesPage extends StatelessWidget {
@@ -65,8 +65,7 @@ class ClubActivitiesPage extends StatelessWidget {
                 color: Colors.white,
                 fontSize: 28,
                 fontWeight: FontWeight.w700,
-                letterSpacing: 2.0, // Increase letter spacing
-                // Replace with your custom font
+                letterSpacing: 2.0, 
                 shadows: [
                   Shadow(
                     blurRadius: 10.0,
@@ -86,24 +85,23 @@ class ClubActivitiesPage extends StatelessWidget {
           itemCount: committees.length,
           itemBuilder: (context, index) {
             return Card(
-              elevation: 5, // Add shadow to the cards for depth
+              elevation: 5, 
               shape: RoundedRectangleBorder(
                 borderRadius:
-                    BorderRadius.circular(15.0), // Rounded corners for cards
+                    BorderRadius.circular(15.0),
               ),
               margin: const EdgeInsets.symmetric(vertical: 10),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.lightBlue[200],
-                  // Set your desired background color here
                   borderRadius: BorderRadius.circular(
-                      15.0), // Optional: Match the card's border radius
-                ), // Space between cards
+                      15.0), 
+                ), 
                 child: ListTile(
                   leading: CircleAvatar(
                     backgroundColor: const Color(0xFFE3F2FD),
                     child: Icon(
-                      committees[index].icon, // Dynamic icon for each committee
+                      committees[index].icon,
                       color: const Color.fromARGB(255, 0, 0, 0),
                     ),
                   ),
