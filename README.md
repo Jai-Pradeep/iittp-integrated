@@ -238,6 +238,19 @@ The Challenge:
 **Integration**
 - Resolving issues while integrating the app
 
+### **Sudhanva Bharadwaj BM   CS23B051**
+**Bus Schedule**
+- Frontend
+- Backend
+- Linking the Bus Schedule to the real-world time
+
+**Events Calendar Screen**
+- Frontend
+- Backend
+- Data Collection
+- Provision to add and delete personalized tasks/events
+  
+
 ### **Adithya Ananth  CS23B001**
 **Time Table**
 - Frontend
